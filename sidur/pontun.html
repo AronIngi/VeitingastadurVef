@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="is">
+  <head>
+    <title>Panta</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1" />
+    <meta property="og:title" content="Titill fyrir Facebook" />
+    <meta property="og:description" content="Lýsing fyrir Facebook" />
+    <meta property="og:image" content="http://example.com/img.jpg" />
+    <meta name="twitter:title" content="Titill fyrir Twitter" />
+    <meta name="twitter:description" content="Lýsing fyrir Twitter" />
+    <meta name="twitter:image" content="http://example.com/img.jpg" />
+    <meta name="description" content="???" />
+  </head>
+  <body>
+    <header>
+      <h1>Pantanir</h1>
+      <nav>
+        <a href="../index.html">Til baka</a>
+        <a href="matsedill.html">Matsedill</a>
+        <a href="um.html">Um okkur</a>
+      </nav>
+      <p>
+        Pantaðu borð og mættu til okkar eða pantaðu mat sem við sendum þér eða
+        þú sækir.
+      </p>
+    </header>
+    <main>
+      <form
+        name="pontun"
+        id="pontun"
+        action="../index.html"
+        method="post"
+        data-netlify="true"
+      >
+        <section>
+          <h2>Panta borð</h2>
+
+          <label for="timi">Hvenær viltu koma</label>
+          <input type="datetime-local" name="timi" id="timi" />
+          <label for="fjoldi">Hve mörg?</label>
+          <input type="number" name="fjoldi" id="fjoldi" min="1" max="10" />
+          <label for="athugasemd">Viltu taka eitthvað frama?</label>
+          <input type="text" name="athugasemd" id="athugasemd" />
+        </section>
+        <section>
+          <h2>Panta mat</h2>
+
+          <h3>Réttir</h3>
+          <label for="rettir-val1">Réttur 1:</label>
+          <select form="pontun" name="rettur-val1" id="rettir-val1">
+            <option value="">Veldu rétt af matseðli</option>
+            <option value="lasagna">Lasagna</option>
+            <option value="risotto">Sveppa risotto</option>
+            <option value="pasta">Ferskt pasta með pestó</option>
+            <option value="quesadilla">Quesadilla</option>
+            <option value="falafel">Falafel með hummus</option>
+            <option value="supa">Súpa dagsins</option>
+            <option value="kartoflur">Kryddaðar sætkartöflur</option>
+            <option value="hamborgari">Hamborgari</option>
+            <option value="pizza">Pizza</option>
+          </select>
+          <label for="rettir-val2">Réttur 2:</label>
+          <select form="pontun" name="rettur-val2" id="rettir-val2">
+            <option value="">Veldu rétt af matseðli</option>
+            <option value="lasagna">Lasagna</option>
+            <option value="risotto">Sveppa risotto</option>
+            <option value="pasta">Ferskt pasta með pestó</option>
+            <option value="quesadilla">Quesadilla</option>
+            <option value="falafel">Falafel með hummus</option>
+            <option value="supa">Súpa dagsins</option>
+            <option value="kartoflur">Kryddaðar sætkartöflur</option>
+            <option value="hamborgari">Hamborgari</option>
+            <option value="pizza">Pizza</option>
+          </select>
+          <label for="rettir-val3">Réttur 3:</label>
+          <select form="pontun" name="rettur-val3" id="rettir-val3">
+            <option value="">Veldu rétt af matseðli</option>
+            <option value="lasagna">Lasagna</option>
+            <option value="risotto">Sveppa risotto</option>
+            <option value="pasta">Ferskt pasta með pestó</option>
+            <option value="quesadilla">Quesadilla</option>
+            <option value="falafel">Falafel með hummus</option>
+            <option value="supa">Súpa dagsins</option>
+            <option value="kartoflur">Kryddaðar sætkartöflur</option>
+            <option value="hamborgari">Hamborgari</option>
+            <option value="pizza">Pizza</option>
+          </select>
+          <label for="rettir-val4">Réttur 4:</label>
+          <select form="pontun" name="rettur-val4" id="rettir-val4">
+            <option value="">Veldu rétt af matseðli</option>
+            <option value="lasagna">Lasagna</option>
+            <option value="risotto">Sveppa risotto</option>
+            <option value="pasta">Ferskt pasta með pestó</option>
+            <option value="quesadilla">Quesadilla</option>
+            <option value="falafel">Falafel með hummus</option>
+            <option value="supa">Súpa dagsins</option>
+            <option value="kartoflur">Kryddaðar sætkartöflur</option>
+            <option value="hamborgari">Hamborgari</option>
+            <option value="pizza">Pizza</option>
+          </select>
+          <label for="rettir-val5">Réttur 5:</label>
+          <select form="pontun" name="rettur-val5" id="rettir-val5">
+            <option value="">Veldu rétt af matseðli</option>
+            <option value="lasagna">Lasagna</option>
+            <option value="risotto">Sveppa risotto</option>
+            <option value="pasta">Ferskt pasta með pestó</option>
+            <option value="quesadilla">Quesadilla</option>
+            <option value="falafel">Falafel með hummus</option>
+            <option value="supa">Súpa dagsins</option>
+            <option value="kartoflur">Kryddaðar sætkartöflur</option>
+            <option value="hamborgari">Hamborgari</option>
+            <option value="pizza">Pizza</option>
+          </select>
+          <h3>Heimilisfang</h3>
+          <label for="heimilisfang">Heimilisfang</label>
+          <input type="text" name="heimilisfang" id="heimilisfang" />
+        </section>
+        <section>
+          <h2>Þínar Upplýsingar</h2>
+
+          <label for="nafn">Nafn</label>
+          <input type="text" name="nafn" id="nafn" required />
+          <label for="netfang">Netfang</label>
+          <input type="email" name="netfang" id="netfang" required />
+          <label for="simi">Sími</label>
+          <input type="tel" name="simi" id="simi" required />
+        </section>
+        <section>
+          <h2>Samþykkja og panta</h2>
+
+          <label for="skilmálar">
+            Ég hef lesið og samþyki skilmálar veitingastaðarinns
+          </label>
+          <input type="checkbox" name="skilmálar" id="skilmálar" required />
+
+          <input type="radio" name="seh" id="saekja" />
+          <label for="saekja">Sækja</label>
+          <input type="radio" name="seh" id="sent" />
+          <label for="sent">Heimsent</label>
+
+          <button form="pontun" type="submit">Panta</button>
+        </section>
+      </form>
+    </main>
+    <footer>
+      <ul>
+        <li>Mánudagatil fimmtudaga 09:00–18:00</li>
+        <li>Föstudaga 10:00–22:00</li>
+        <li>Laugardaga 11:00–22:00</li>
+        <li>Sunnudaga Lokað</li>
+      </ul>
+
+      <ul>
+        <li>Veitingastaðurinn ehf.</li>
+        <li>Aðalgata 10 100 Reykjavík</li>
+        <li>Sími 333-4567</li>
+        <li>veitingastadur@example.org</li>
+      </ul>
+    </footer>
+  </body>
+</html>
