@@ -1,2 +1,2 @@
 # VeitingastadurVef
-Verkefni í Vefforritun
+Verkefni í Vefforritun (HÍ; Haust-2023)
