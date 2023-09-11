@@ -6,6 +6,7 @@
 html
 {
     box-sizing:border-box;
+    font-size:16px;
 }
 
 *,
@@ -24,6 +25,12 @@ html
   width: 1px;
 }
 
+body
+{
+    font-size:1.25rem;
+    background-color:tan;
+}
+
 header {
     background-color: brown;
     text-align:center;
@@ -35,15 +42,20 @@ nav {
 }
 
 main{
-    padding-left:1%;
-    padding-right:1%;
+    padding-left:1rem;
+    padding-right:1rem;
     text-align:left;
+    background-color:white;
 }
 
 main section
 {
-    border-bottom: solid 0.5rem black;
-    height:40vh;
+    border-bottom: solid 0.25rem black;
+}
+
+main section:last-child
+{
+    border-bottom: 0;
 }
 
 main section .box
@@ -51,18 +63,20 @@ main section .box
     width:35%;
     vertical-align:top;
     display:inline-block;
+    padding:1rem;
 }
 
 footer {
     background-color:tan;
     text-align:center;
+    height:;
 }
 
 footer section{
     display:inline-block;
 }
 
-footer ul
+ul
 {
     list-style-type:none;
 }
