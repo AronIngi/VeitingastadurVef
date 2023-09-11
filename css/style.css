@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    box-sizing:border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+header {
+    background-color: brown;
+    text-align:center;
+}
+
+nav {
+    text-align:center;
+    background-color:red;
+}
+
+main{
+    padding-left:1%;
+    padding-right:1%;
+    text-align:left;
+}
+
+main section
+{
+    border-bottom: solid 0.5rem black;
+    height:40vh;
+}
+
+main section .box
+{
+    width:35%;
+    vertical-align:top;
+    display:inline-block;
+}
+
+footer {
+    background-color:tan;
+    text-align:center;
+}
+
+footer section{
+    display:inline-block;
+}
+
+footer ul
+{
+    list-style-type:none;
+}
+
+
+li
+{
+    list-style-position:inside;
+}
