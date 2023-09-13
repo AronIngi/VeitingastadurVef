@@ -1,0 +1,25 @@
+html
+{
+    box-sizing:border-box;
+    font-size:16px;
+}
+
+main section
+{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    border-bottom: solid 0.25rem #FFE7AE;
+}
+
+main section:last-child
+{
+    border-bottom: 0;
+}
+
+main section .box
+{
+    width:49%;
+    vertical-align:top;
+    display:inline-block;
+    padding:1rem;
+}

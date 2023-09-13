@@ -27,49 +27,45 @@ html
 
 body
 {
-    font-size:1.25rem;
+    font-size:1.5rem;
     background-color:tan;
 }
 
 header {
-    background-color: brown;
+    background-color: #2F0505;
+    color: #FFF9EE;
     text-align:center;
+    padding:1.25rem;
 }
 
 nav {
     text-align:center;
-    background-color:red;
+    background-color:#FFF9EE;
+    padding:1rem;
+}
+
+nav a{
+    text-decoration:none;
+    color:#2F0505;
+    padding-right:5rem;
+}
+
+nav a:last-child
+{
+    padding-right:0;
 }
 
 main{
-    padding-left:1rem;
-    padding-right:1rem;
+    padding-left:5rem;
+    padding-right:5rem;
     text-align:left;
     background-color:white;
-}
-
-main section
-{
-    border-bottom: solid 0.25rem black;
-}
-
-main section:last-child
-{
-    border-bottom: 0;
-}
-
-main section .box
-{
-    width:35%;
-    vertical-align:top;
-    display:inline-block;
-    padding:1rem;
 }
 
 footer {
     background-color:tan;
     text-align:center;
-    height:;
+    padding:1.25rem;
 }
 
 footer section{
